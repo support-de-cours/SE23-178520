@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .btn-missions {
+            border: none;
+            background-color: brown;
+            color: aliceblue;
+            border-radius: 5px;
+            padding: .8rem;
+            transition: background-color .3s;
+            cursor: pointer;
+        }
+        .btn-missions:hover {
+            background-color: rgb(90, 28, 28);
+        }
+    </style>
+</head>
+<body>
+    
+    <button type="button" class="btn-missions" rel="js-btn-missions">Get Missions</button>
+
+    <hr>
+
+    <div id="missions" rel="js-missions"></div>
+
+    <hr>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+console.log( window );
+console.log( document );
+console.log( navigator );
+console.log( location );
+console.log( console );
+console.log( XMLHttpRequest );
+console.log( fetch );
+console.log( localStorage );
+console.log( sessionStorage );
+console.log( Event );
+console.log( EventTarget );
